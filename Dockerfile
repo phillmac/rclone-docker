@@ -1,7 +1,5 @@
 FROM python:3.6
 
-MAINTAINER Brian J. Cardiff <bcardiff@gmail.com>
-
 ENV RCLONE_VERSION=current
 ENV ARCH=amd64
 
