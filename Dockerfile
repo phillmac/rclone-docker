@@ -13,6 +13,6 @@ RUN apt-get update && apt-get install -y wget unzip \
 
 VOLUME ["/root"]
 
-ENTRYPOINT ["bash"]
+ENTRYPOINT [""]
 
-CMD [""]
+CMD ["bash"]
