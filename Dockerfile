@@ -1,7 +1,7 @@
 FROM python:3.6
 
-ENV RCLONE_VERSION=current
-ENV ARCH=amd64
+ARG RCLONE_VERSION=current
+ARG ARCH=amd64
 
 RUN apt-get update && apt-get install -y nano ncdu tmux wget unzip \
     && cd /tmp \
